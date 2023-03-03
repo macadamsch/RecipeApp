@@ -33,15 +33,15 @@ function RecipeCreate({ addRecipe }) {
           <tr>
             <td>
               <label htmlFor="name">Name</label>
-              <input type="text" name="name" onChange={handleChange} value={formData.name} />
+              <input type="text" name="name" onChange={handleChange} value={formData.name} required />
               </td><td><label htmlFor="cuisine">Cuisine</label>
-              <input type="text" name="cuisine" onChange={handleChange} value={formData.cuisine} />
+              <input type="text" name="cuisine" onChange={handleChange} value={formData.cuisine} required />
               </td><td><label htmlFor="photo">Photo</label>
-              <input type="url" name="photo" onChange={handleChange} value={formData.photo} />
+              <input type="url" name="photo" onChange={handleChange} value={formData.photo} required />
               </td><td><label htmlFor="ingredients">Ingredients</label>
-              <textarea name="ingredients" onChange={handleChange} value={formData.ingredients} />
+              <textarea name="ingredients" onChange={handleChange} value={formData.ingredients} required />
               </td><td><label htmlFor="preparation">Preparation</label>
-              <textarea name="preparation" onChange={handleChange} value={formData.preparation} />
+              <textarea name="preparation" onChange={handleChange} value={formData.preparation} required />
             </td>
             <td>
               <button type="submit">Create</button>
