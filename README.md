@@ -16,7 +16,7 @@ The Recipe App is built using the following technologies and tools:
 ## Run Locally
 
 To run this project locally, follow these steps:
-1. Clone the repository: `git clone https://github.com/your-username/recipe-app.git`
+1. Clone the repository: `git clone https://github.com/macadamsch/RecipeApp.git`
 2. Navigate to the project directory: `cd recipe-app`
 3. Install dependencies: `npm install` or `yarn install` if you're using Yarn.
 4. Run the tests: `npm test` or `yarn test` to ensure the code meets functionality requirements.
